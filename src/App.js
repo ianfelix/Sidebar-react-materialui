@@ -1,14 +1,8 @@
-import React from 'react';
-import './App.css';
-import {BrowserRouter} from 'react-router-dom';
-import Routes from './Routes';
+import React from "react";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
-  );
+  return <Sidebar />;
 }
 
 export default App;

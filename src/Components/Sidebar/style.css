@@ -11,10 +11,10 @@ body {
   background: var(--back-color-ebebeb) !important;
 }
 
-img.logo-unifrio {
+img.logo {
   width: 9.5rem;
   position: absolute;
-  top: 2%;
+  top: 1%;
   margin-left: 12px;
 }
 

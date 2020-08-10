@@ -19,9 +19,8 @@ import {
   FaInbox,
   FaCodeBranch,
 } from "react-icons/fa";
-import LogoUnifrio from "../../Images/logo-unifrio-novo@2x.png";
-import IconMenuClose from "../../Images/icons/icon-close.svg";
-import IconMenuOpen from "../../Images/icons/icon-open.svg";
+import IconMenuClose from "../../assets/icons/icon-close.svg";
+import IconMenuOpen from "../../assets/icons/icon-open.svg";
 import "./style.css";
 
 const drawerWidth = 250;
@@ -139,7 +138,11 @@ export default function MiniDrawer() {
         </div>
         {/*** logo unifrio ***/}
         {open && (
-          <img className='logo-unifrio' src={LogoUnifrio} alt='logo Unifrio' />
+          <img
+            className='logo'
+            src='https://fontmeme.com/temporary/277571e888cab724c81e3936d7850810.png'
+            alt='logo'
+          />
         )}
         <List>
           {[
