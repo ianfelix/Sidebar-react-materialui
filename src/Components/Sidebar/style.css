@@ -1,0 +1,68 @@
+:root {
+  /* Colors: */
+  --table-color: #ffffff;
+
+  --menu-font-077756: #077756;
+
+  --back-color-ebebeb: #ebebeb;
+}
+
+body {
+  background: var(--back-color-ebebeb) !important;
+}
+
+img.logo-unifrio {
+  width: 9.5rem;
+  position: absolute;
+  top: 2%;
+  margin-left: 12px;
+}
+
+/* barra geral */
+.MuiDrawer-paper {
+  background-color: var(--menu-font-077756) !important;
+  color: var(--back-color-ebebeb) !important;
+  box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.75) !important;
+  border: none !important;
+}
+
+.MuiToolbar-root {
+  background-color: var(--back-color-ebebeb);
+}
+/* fim barra */
+
+/* icons */
+.MuiListItemIcon-root svg {
+  color: var(--back-color-ebebeb);
+
+  width: 26px;
+}
+
+#sing-out {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+#sing-out-closed a {
+  margin-left: 8px;
+}
+
+#sing-out a {
+  text-decoration: none;
+  color: var(--back-color-ebebeb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sing-out svg {
+  color: var(--back-color-ebebeb);
+  width: 30px;
+}
+
+@media (max-width: 600px) {
+  .makeStyles-drawerClose-8 {
+    width: 65px !important;
+  }
+}
